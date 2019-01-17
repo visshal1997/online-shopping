@@ -13,6 +13,12 @@
 		<spring.version>5.1.0.RELEASE</spring.version>
 	</properties>
 	<dependencies>
+		<!-- linking backend project -->
+		<dependency>
+			<groupId>os.visshal</groupId>
+			<artifactId>osbackend</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
 		<dependency>
 			<groupId>javax</groupId>
 			<artifactId>javaee-api</artifactId>
@@ -30,7 +36,7 @@
 			<artifactId>spring-webmvc</artifactId>
 			<version>5.1.0.RELEASE</version>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>jstl</groupId>
 			<artifactId>jstl</artifactId>
